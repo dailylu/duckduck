@@ -1,0 +1,88 @@
+/* 전체 페이지 스타일 */
+.calendar-page {
+  text-align: center;
+  padding: 10px;
+}
+
+/* 캘린더 스타일 */
+.fc {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* 날짜 숫자 밑줄 제거 */
+.fc-daygrid-day-number {
+  text-decoration: none;  /* 밑줄 없애기 */
+  border: none;           /* 날짜 셀 경계선 없애기 */
+  font-size: 0.9rem;
+  color: #333;
+}
+
+
+.fc-toolbar-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+/* 이전 버튼 */
+.fc-prev-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.fc-prev-button:hover {
+  background-color: #0056b3;
+}
+
+/* 다음 버튼 */
+.fc-next-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.fc-next-button:hover {
+  background-color: #0056b3;
+}
+
+/* 오늘 버튼 */
+.fc-today-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.fc-today-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+/* 중앙 제목 스타일 */
+.calendar-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1.5em; /* 상단 여백 추가 */
+  color: #333;
+}
+
+.calendar-subtitle {
+  margin-bottom: 4em; 
+  font-size: 1rem;
+  color: #666;
+}

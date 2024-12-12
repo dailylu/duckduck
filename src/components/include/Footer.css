@@ -1,0 +1,17 @@
+.nav-link  {
+  cursor: pointer;
+  &:hover {
+    opacity: 80%;
+  }
+}
+
+.ms-3 {
+  cursor: pointer;
+  &:hover {
+    opacity: 80%;
+  }
+}
+
+.p {
+  color: #6c757d;
+}
